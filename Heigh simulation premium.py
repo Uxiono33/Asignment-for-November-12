@@ -15,4 +15,6 @@ print(Times,"s")
 y = (initial_Heigh + ((1/2)* g * Times**2))
     #Es apreciable que al no tener en cuenta el rozamiento con el aire el objeto no alcanza velocidad terminal por lo que su velocidad crece de forma indefinida, haciendo que el objeto tarde segundos en recorrer kilómetros
 print(y,"m")
+z=numpy.mean(y)
+print(z,"m")
 
